@@ -2,7 +2,7 @@
   "author": "Vish Vishvanath",
   "name": "ember-skeleton",
   "description": "Basic sample project for Ember, Ember-Data, Handlebars and Brunch, in Javascript.",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "homepage": "https://github.com/impartial/ember-skeleton",
   "repository": {
     "type": "git",
