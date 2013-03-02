@@ -1,0 +1,15 @@
+<div class="row-fluid">
+    <div class="span12">
+        <h4>{{title}}</h4>
+        {{#each photo in photos}}
+        <div class="media">
+            <a class="pull-left" href="#">
+            <img {{bindAttr src="photo.url" class="media-object"}}>
+            </a>
+            <div class="media-body">
+                <h4 class="media-heading">{{photo.caption}}</h4>
+            </div>
+        </div>
+        {{/each}}
+    </div>
+</div>

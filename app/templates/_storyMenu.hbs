@@ -1,0 +1,6 @@
+<ul class="nav nav-list">
+    <li class="nav-header">List of Stories</li>
+    {{#each story in controller}}
+    <li>{{#linkTo story story}}{{ story.title }}{{/linkTo}}</li>
+    {{/each}}
+</ul>
