@@ -62,3 +62,7 @@ NodeJS
 
 Homebrew OS X
 Vim
+
+## Version History
+
+1.0: 2 March 2013, first working release.
